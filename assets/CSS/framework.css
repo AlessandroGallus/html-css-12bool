@@ -1,9 +1,9 @@
 .container{
   width: 100%;
   min-width: 1200px;
-  margin:auto
+  margin:auto;
 }
-.clearfix{
+.clearfix::after{
   content:"";
   display: table;
   clear:both;
