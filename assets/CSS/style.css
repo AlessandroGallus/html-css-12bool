@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container [class*="col-"]{
+  background-color: #FEC0CB;
+}
+[class*="col-"]{
+  font-size: 24px;
+  height:400px;
+  line-height: 400px;
+  text-align: center;
+  border:1px solid black;
+  padding:10px;
+}
+[class*="col-"]>[class*="col-"]{
+  height: calc(400px - 10px - 10px);
+  line-height: calc(400px - 10px - 10px);;
+  background-color: #F08080;
+  border:1px solid white;
+}
